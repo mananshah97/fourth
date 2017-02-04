@@ -1,0 +1,155 @@
+*{
+border-sizing: border-box;
+}
+body {
+background-image: url("https://s-media-cache-ak0.pinimg.com/originals/48/4d/aa/484daa99572fd2a204702da53ecbafb0.png");
+background-attachment: fixed;
+background-color: black;
+padding: 100px;
+}
+
+h1 {
+text-align: center;
+color: red;
+font-size: 35px;
+}
+
+h2 {
+text-align: left;
+color: red;
+font-size: 25px;
+}
+
+ li{width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+a:hover {
+    color: ‎‎white;
+}
+a:active {
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+a:link {
+    background-color: yellow;
+}
+
+a:visited {
+    background-color: cyan;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+a:active {
+    background-color: hotpink;
+} 
+a:link, a:visited {
+    background-color: red;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: black;
+} 	 
+b.ul {list-style-type: circle;
+}
+
+a.ul {
+list-style-type: square;
+}
+li {
+display: block;
+}
+
+section {
+border: 1px solid red;
+font-size: 25px;
+font-style: italic;
+color: white;
+}
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+li{
+color: red;
+background-color: white;
+}
+li:hover {
+background-color: cyan;
+}
+
+table {
+color: red;
+}
+
+h2,h3,h4,h5 {
+color: #82ffa7;
+font-size: 20px;
+}
+h6 {
+color: #fff682;
+font-size: 15px;
+}
+table {
+font-size: 20px;
+    border-collapse: collapse;
+}
+ table {   
+width: 50%;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+th {
+    height: 50px;
+}
+tr:hover {background-color: #f5f5f5}
+	
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+i {
+margin: 0 0 0px 350px;
+width: 15px;
+background-color: white;
+}
+i:hover {
+background-color: red;
+}
+

@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;  
+}
+
+html, body {
+padding: 0;
+margin: 0;
+}
+body {
+  color: #000000;
+font-family: 'Libre Baskerville', sans-serif;
+  font-size: 70%;
+}
+body {
+    background-image: url("http://www.adweek.com/files/blogs/just-do-it-hed-2013.jpg");
+    background-repeat: repeat-y;
+background-position: right top;
+background-attachment: fixed;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {color: blue;
+    text-align: center;
+    background-color: white;
+font-size: 40px;
+}
+
+h6
+{
+color: #7CFC00;
+border-left: 1px solid white;
+font-size: 11px;
+}
+
+
+
+h2,h3 {
+color: white;
+text-align: center;
+background-color: black;
+}
+
+section {
+border-bottom: 1px solid red;
+color: white;
+text-align: center;
+font-style: italic;
+font-size: 28px;
+}
+ul {
+color: white;
+text-align: right;
+}
+li {margin: 100px 150px 100px 80px; 
+color: white;
+text-align: left;
+}
+
+img src {
+width: 50px;
+}

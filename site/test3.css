@@ -1,0 +1,173 @@
+body {
+background-image: url("http://wallpapercave.com/wp/wc1707702.jpg");
+background-repeat: repeat-x;
+background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+text-align: center;
+font-size: 35px;
+}
+h1:hover {
+text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 30px green;
+}
+
+#Left {
+float: left;
+width: 50%;
+}
+
+#Right {
+float: right;
+width: 50%;
+}
+
+#header {
+height: 20px;
+}
+
+#footer {
+height: 20px;
+}
+
+h3 {
+
+color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+text-align: center;
+font-size: 20px;
+}
+
+h3:hover {
+text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px red;
+}
+
+section {
+color: cyan;
+font-style: bold,underline;
+}
+
+h2 {
+color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;  
+text-align: left;
+font-size: 17px;
+font-style: underline;
+}
+h2:hover {
+text-shadow: 1px 1px 2px black, 0 0 25px darkblue, 0 0 5px orange; 
+}
+
+div.polaroid {
+  width: 350px;
+  box-shadow: 0 4px 8px 0 #ff3200, 0 6px 20px 0 white;
+  text-align: center;
+}
+
+div.container {
+  padding: 5px;
+}
+
+div.polaroid1 {
+  width: 350px;
+  box-shadow: 0 8px 16px 0 #ff3200, 0 12px 40px 0 blue;
+  text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+color: white;
+}
+
+table, th, td {
+    border: 1px solid cyan;
+}
+table {
+    width: 50%;
+}
+
+th {
+    height: 50px;
+}
+th {
+    text-align: left;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+tr:hover {background-color: #f5f5f5}
+	 
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+a:hover {
+    color: ‎‎white;
+}
+a:active {
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+a:link {
+    background-color: yellow;
+}
+
+a:visited {
+    background-color: cyan;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+a:active {
+    background-color: hotpink;
+} 
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: lightblue;
+} 	 
+
+h6 {
+text-align: right;
+color: #dbc76f;
+font-size: 19px;
+}
+
+ul {
+color: #EEE8AA;
+}
+
+
+i:hover {
+background-color: white;
+}
+

@@ -2,13 +2,20 @@
 document.addEventListener("DOMContentLoaded",
   function (event) {
     
-    function sayHello (event) {
+  function call(event){
+var q=parseInt(document.getElementById("txt1").value);
+var w=parseInt(document.getElementById("txt2").value);
+var result=q+w;
+      print("The sum is " +result);
+   }  
+  
+  function sayHello (event) {
       console.log(event);
 
       this.textContent = "Said it!";
       var name =
        document.getElementById("name").value;
-       var message = "<h2>Hello " + name + "!</h2>";
+       var message = "<h2>The sum is " + result + "!</h2>";
 
       document
         .getElementById("content")
@@ -24,12 +31,7 @@ document.addEventListener("DOMContentLoaded",
             .querySelector("h1")
             .textContent = title;
       
-   function call(){
-var q=parseInt(document.getElementById("txt1").value);
-var w=parseInt(document.getElementById("txt2").value);
-var result=q+w;
-      print("The sum is " +result);
-   }
+  
       }
     }
  

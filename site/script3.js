@@ -23,9 +23,17 @@ document.addEventListener("DOMContentLoaded",
         document
             .querySelector("h1")
             .textContent = title;
+      
+   function call(){
+var q=parseInt(document.getElementById("txt1").value);
+var w=parseInt(document.getElementById("txt2").value);
+var result=q+w;
+      print("The sum is " +result);
+   }
       }
     }
-
+ 
+  
     // Unobtrusive event binding
     document.querySelector("button")
       .addEventListener("click", sayHello);

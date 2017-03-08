@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded",
   function (event) {
     
   function call(event){
+    console.log(event);
 var q=parseInt(document.getElementById("txt1").value);
 var w=parseInt(document.getElementById("txt2").value);
 var result=q+w;
@@ -15,7 +16,7 @@ var result=q+w;
       this.textContent = "Said it!";
       var name =
        document.getElementById("name").value;
-       var message = "<h2>The sum is " + result + "!</h2>";
+       var message = "<h2>The sum is " + name + "!</h2>";
 
       document
         .getElementById("content")

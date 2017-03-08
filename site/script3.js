@@ -1,6 +1,12 @@
 // Event handling
 document.addEventListener("DOMContentLoaded",
   function (event) {
+   function call(){
+var q=parseInt(document.getElementById("txt1").value);
+var w=parseInt(document.getElementById("txt2").value);
+var result=q+w;
+ var answer="The sum is " +result";
+  } 
   
   function sayHello (event) {
       console.log(event);
@@ -27,12 +33,6 @@ document.addEventListener("DOMContentLoaded",
   
       }
     }
-  function call(){
-var q=parseInt(document.getElementById("txt1").value);
-var w=parseInt(document.getElementById("txt2").value);
-var result=q+w;
- var answer="The sum is " +result";
-  } 
   
     // Unobtrusive event binding
     document.querySelector("button")

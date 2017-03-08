@@ -32,8 +32,7 @@ var result=q+w;
       
   
       }
-    }
-  
+    
     // Unobtrusive event binding
     document.querySelector("button")
       .addEventListener("click", sayHello);

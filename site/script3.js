@@ -1,12 +1,13 @@
 // Event handling
-document.addEventListener("DOMContentLoaded",
-  function (event) {
-   function call(){
+function call(){
 var q=parseInt(document.getElementById("txt1").value);
 var w=parseInt(document.getElementById("txt2").value);
 var result=q+w;
  var answer="The sum is " +result;
   } 
+document.addEventListener("DOMContentLoaded",
+  function (event) {
+                   
   
   function sayHello (event) {
       console.log(event);

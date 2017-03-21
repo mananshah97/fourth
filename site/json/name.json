@@ -1,15 +1,15 @@
-
-  "book" {
+{
+  "book": {
   "firstName": "Manan",
   "lastName": "Shah",
   "likesChineseFood": true,
-  "numberOfDisplays": 2 
+  "numberOfDisplays": 2, 
 },
 
-"english" {
+"english": {
 "firstName": "Tom ",
   "lastName": "Cruise",
   "likesChineseFood": true,
   "numberOfDisplays": 2 
 }
-    
+}

@@ -1,6 +1,12 @@
 {
+"book":{
   "firstName": "Yaakov",
   "lastName": "Chaikin",
   "likesChineseFood": true,
-  "numberOfDisplays": 2 
+  "numberOfDisplays": 2,
+},
+
+"english":{
+  "lastname": "Cruise"
+}
 }

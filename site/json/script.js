@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("name.json", 
             function (res) {
               var message = 
-                res.firstName + " " + res.lastName
+                res.book.firstName + " " + res.english.lastName
               if (res.likesChineseFood) {
                 message += " likes Chinese food";
               }

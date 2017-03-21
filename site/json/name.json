@@ -1,8 +1,15 @@
 {
-  "book" [
+  "book" {
   "firstName": "Manan",
   "lastName": "Shah",
   "likesChineseFood": true,
   "numberOfDisplays": 2 
-]
+},
+
+"english" {
+"firstName": "Manan",
+  "lastName": "Shah",
+  "likesChineseFood": true,
+  "numberOfDisplays": 2 
+}
     }

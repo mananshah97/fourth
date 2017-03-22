@@ -1,10 +1,5 @@
+
 {
-  "firstName": "Yaakov",
-  "lastName": "Chaikin",
-  "likesChineseFood": true,
-  "numberOfDisplays": 2,
-"phonenumber": {
-  "number": 23
+  "name": "Manan",
+  "States": 29
 }
-}
- 

@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded",
 		var answer=" ";
               if (res.name === "Manan") {
 		      message += " Done";
+		      
 		      if(res.States == 29){
 			      answer += "Correct Ans";
 		      }

@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("name.json", 
             function (res) {
 		console.log(res.name);
+		console.log(res.States);
     var message="fd";
               if (res.name === "Manan") {
                 message += "Done";

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("name.json", 
             function (res) {
           var message = " ";
-          var num = document.getElementById("fname");    
+          var num =Number(document.getElementById("fname").value);    
           var flag=0;
           var arr=res.arr;
           for ( var i=1;i<11;i++){

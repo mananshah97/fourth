@@ -10,18 +10,18 @@ document.addEventListener("DOMContentLoaded",
         $ajaxUtils
           .sendGetRequest("name.json", 
             function (res) {
-              var message = 
-                res.firstName + " " + res.lastName
-              if (res.likesChineseFood) {
-                message += " likes Chinese food";
+          var num = document.getElementById("fname");    
+          var flag=0;
+          var arr=res.arr;
+          for ( var i=1;i<11;i++){
+                if (num==arr[i]) {
+                flag=1;
+                  message += res.arr[i];
+                  
               }
               else {
-                message += " doesn't like Chinese food";
+                message += " not found";
               }
-              message += " and uses ";
-              message += res.numberOfDisplays + 1;
-              message += " displays for coding.";
-
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
             });

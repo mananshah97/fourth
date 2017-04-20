@@ -1,32 +1,5 @@
-[
-	{
-		"1":"name1"
-	},
-	{
-		"2":"name2"
-	},
-	{
-		"3":"name3"
-	},
-	{
-		"4":"name4"
-	},
-	{
-		"5":"name5"
-	},
-	{
-		"6":"name6"
-	},
-	{
-		"7":"name7"
-	},
-	{
-		"8":"name8"
-	},
-	{
-		"9":"name9"
-	},
-	{
-		"10":"name10"
-	}
-]
+{
+  "arr2": ["jyotsna","janit","aaron","miloni","shikha","hardik","damini","anuj","aishwarya","aniketh"],
+  "arr": [11,12,13,14,15,16,17,18,19,20]
+  
+}

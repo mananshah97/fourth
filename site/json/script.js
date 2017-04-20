@@ -3,34 +3,38 @@ document.addEventListener("DOMContentLoaded",
   function (event) {
     
     // Unobtrusive event binding
-    document.querySelector("button")
+    document.querySelector("#btn")
       .addEventListener("click", function () {
         
         // Call server to get the name
-        $ajaxUtils
+	$ajaxUtils
           .sendGetRequest("name.json", 
             function (res) {
-          var message = " ";
-          var num =Number(document.getElementById("fname").value);    
-          var flag=0;
-          var arr=res.arr;
-          for ( var i=1;i<11;i++){
-                if (num==i) {
-                flag=1;
-                  message += res.arr[i].i;
-                  
-              }
-              else {
-                flag=0;
-              }
-          }
-          if( flag==0)
-          {
-            message="not found";
-          }
-              document.querySelector("#content")
-                .innerHTML = "<h2>" + message + "</h2>";
+	      var num = Number(document.getElementById("fname").value); 
+	        
+	      var arr = res.arr;
+	      var arr2 = res.arr2; 
+	      
+	      var message = "not found"; 
+
+	    for(var i = 0; i < 10; i++){
+	      	console.log(arr[i]); 
+	   
+		if(arr[i] == num){
+		   	   message = arr2[i]; 
+		   	  
+	           break; 
+		}
+	      }
+		
+              document.querySelector("#content").innerHTML = "<h2>" + message + "</h2>";
+              var a = arr.indexOf(num);
+	      document.querySelector("#content").innerHTML = "<h2>" + a + "</h2>";
+	      
             });
+
+
+ 		
       });
   }
 );

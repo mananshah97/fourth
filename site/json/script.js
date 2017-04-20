@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded",
           for ( var i=1;i<11;i++){
                 if (num==i) {
                 flag=1;
-                  message = res.arr;
+                  message += res.arr[i].i;
                   
               }
               else {

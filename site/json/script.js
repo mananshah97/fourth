@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded",
               else {
                 message += " not found";
               }
+          }
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
             });

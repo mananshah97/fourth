@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded",
         $ajaxUtils
           .sendGetRequest("name.json", 
             function (res) {
+          var message = " ";
           var num = document.getElementById("fname");    
           var flag=0;
           var arr=res.arr;

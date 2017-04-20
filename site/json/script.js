@@ -17,13 +17,16 @@ document.addEventListener("DOMContentLoaded",
           for ( var i=1;i<11;i++){
                 if (num==i) {
                 flag=1;
-                  message += res.arr[i];
+                  message = res.i;
                   
               }
               else {
-                message += " not found";
+                flag=0;
               }
           }
+          if( flag==0)
+          {
+            message="not found";
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
             });

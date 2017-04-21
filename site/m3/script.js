@@ -12,16 +12,16 @@ document.addEventListener("DOMContentLoaded",
             function (res) {
 	      var getvalue = document.getElementById("fname").value; 
 	        
-	      var arr = res.arr;
+	      
 	      
 	      var message = "not found"; 
 
 	      var i;
-	      for (i = 0; i<arr.length;i++)
+	      for (i = 0; i<res.arr.length;i++)
 	      {
-	      	if(getvalue === "arr[i]")
+	      	if(getvalue === res.arr[i].sapid || getvalue === res.arr[i].email || getvalue === res.arr[i].contact || getvalue === res.arr[i].date_of_birth || getvalue === res.arr[i].cgpa)
 	      	{
-	      		message+=arr[i];
+	      		message = res.arr[i].name;
 	      	}
 	      }
               document.querySelector("#content").innerHTML = "<h2>" + message + "</h2>";

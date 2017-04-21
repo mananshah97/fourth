@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("name.json", 
             function (res) {
 	      var getvalue = document.getElementById("fname").value; 
+		var arr;
 	        
 	      
 	      

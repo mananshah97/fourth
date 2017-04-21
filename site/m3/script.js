@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",
 	$ajaxUtils
           .sendGetRequest("name.json", 
             function (res) {
-	      var in = document.getElementById("fname").value; 
+	      var getvalue = document.getElementById("fname").value; 
 	        
 	      var arr = res.arr;
 	      
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded",
 	      var i;
 	      for (i = 0; i<arr.length;i++)
 	      {
-	      	if(num === "arr[i]")
+	      	if(getvalue === "arr[i]")
 	      	{
 	      		message+=arr[i];
 	      	}

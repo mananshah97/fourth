@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded",
 	      var message = "not found"; 
 
 	      var i;
-	      for (i = 0; i<res.arr.length;i++)
+	      for (i = 0; i<4;i++)
 	      {
 	      	if(getvalue === res.arr[i].sapid || getvalue === res.arr[i].email || getvalue === res.arr[i].contact || getvalue === res.arr[i].date_of_birth || getvalue === res.arr[i].cgpa)
 	      	{

@@ -1,7 +1,7 @@
 [
 	{
 		"name:":"ABC",
-		"sap-id":"70011015146",
+		"sapid":"70011015146",
 		"email" :"xyz@gds.com",
 		"contact" :8979898,
 		"date_of_birth": "20th July 1997",
@@ -10,7 +10,7 @@
 	{
 
 		"name:":"XYZ",
-		"sap-id:":"70011015147",
+		"sapid:":"70011015147",
 		"email:" :"yuiew@hui.com",
 		"contact" :98098090,
 		"date_of_birth": "31st December 1997",
@@ -19,7 +19,7 @@
 	{
 
 		"name:":"POU",
-		"sap-id:":"70011015148",
+		"sapid:":"70011015148",
 		"email:" :"yuiew@huifs.com",
 		"contact" :9803232,
 		"date_of_birth": "31st January 1997",
